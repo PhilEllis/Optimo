@@ -1181,6 +1181,84 @@ section {
     font-size: 13px;
   }
 
+  /*--------------------------------------------------------------
+# About Us Section Cleaning
+--------------------------------------------------------------*/
+.c-about h3 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: var(--font-secondary);
+}
+
+.c-about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.c-about .content ul li {
+  padding: 0 0 10px 30px;
+  position: relative;
+}
+
+.c-about .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: #327B7C;
+}
+
+.c-about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About Lists
+--------------------------------------------------------------*/
+.about-lists {
+  padding: 40px;
+}
+
+.about-lists .row {
+  overflow: hidden;
+}
+
+.about-lists .content-item {
+  padding: 40px;
+  border-left: 1px solid #d9e8f4;
+  border-bottom: 1px solid #d9e8f4;
+  margin: -1px;
+}
+
+.about-lists .content-item span {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #327B7C;
+}
+
+.about-lists .content-item h4 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-lists .content-item p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .about-lists .content-item {
+    padding: 40px 0;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Features Cleaning
 --------------------------------------------------------------*/
