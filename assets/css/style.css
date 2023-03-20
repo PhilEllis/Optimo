@@ -427,8 +427,8 @@ body {
 }
 
 #hero-cleaning {
-  background: url("../img/cleaningherosample.jpg") repeat scroll center center/cover;
-  height: 100vh;
+  background: url("../img/optimocleaninghero800.jpg") repeat scroll center center/cover;
+  height: 60vh;
   width: 100%;
 }
 
@@ -443,8 +443,8 @@ body {
 }
 
 #hero-maintenance {
-  background: url("../img/maintenancehero.jpg") repeat scroll center center/cover;
-  height: 100vh;
+  background: url("../img/optimomaintenancehero800.jpg") repeat scroll center center/cover;
+  height: 60vh;
   width: 100%;
 }
 
