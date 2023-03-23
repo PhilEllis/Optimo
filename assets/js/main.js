@@ -161,7 +161,7 @@
         }
       }
     });
-  
+
     /**
     * Hero type effect
     */
@@ -243,11 +243,9 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate Pure Counter
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
+  new PureCounter();
 
   /**
    * Portfolio details slider
