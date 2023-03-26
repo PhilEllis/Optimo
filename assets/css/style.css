@@ -411,8 +411,8 @@ body {
 .hero-content p {
   font-size: 18px;
   letter-spacing: 3px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   text-transform: capitalize;
   color: rgba(95, 112, 123, 0.5)
 }
@@ -459,20 +459,51 @@ body {
   padding-top: 550px;
 }
 
-/* Media query for screens smaller than 768px */
+/* Media query for screens smaller than 768px 
 @media screen and (max-width: 850px) {
-  /* New hero image styles for smaller screens */
+  /* New hero image styles for smaller screens 
   #hero {
     background-image: url('../img/phillelis2Tablet.jpg');
-    /* Other hero styles for smaller screens... */
+    /* Other hero styles for smaller screens... 
   }
-}
+}*/
 
 @media screen and (max-width: 630px) {
   /* New hero image styles for smaller screens */
   #hero {
-    background-image: url('../img/phillelis2Phone.jpg');
+    background-image: url('../img/optimoherophone.jpg');
     /* Other hero styles for smaller screens... */
+  }
+  .typed {
+    display: none;
+    }
+  .typed-cursor {
+    display: none;
+    }
+  .hero-content p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    color: rgba(95, 112, 123, 0.5)
+  }
+  #about {
+    text-align: center;
+  }
+  #counts {
+    text-align: center;
+  }
+  .count-box {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .count-box i {
+    margin-right: 10px;
+    margin-bottom: 0;
   }
 }
    /*--------------------------------------------------------------
@@ -817,6 +848,7 @@ section {
 
 .cta .cta-btn:hover {
   border-color: #fff;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -904,7 +936,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(50, 123, 124, 0.5), rgba(0, 131, 116, 0.5)), url("../img/optimocardiffbay.jpg") center center;
   background-size: cover;
   padding: 100px 60px;
   border-radius: 15px;
@@ -913,14 +945,14 @@ section {
 
 .call-to-action h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .call-to-action p {
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .call-to-action .play-btn {
@@ -951,7 +983,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid rgba(255, 255, 255, 0.8);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
