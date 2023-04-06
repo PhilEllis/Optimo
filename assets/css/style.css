@@ -459,14 +459,23 @@ body {
   padding-top: 550px;
 }
 
-/* Media query for screens smaller than 768px 
+/* Media query for screens smaller than 850px */
 @media screen and (max-width: 850px) {
-  /* New hero image styles for smaller screens 
+  /* New hero image styles for smaller screens */
   #hero {
-    background-image: url('../img/phillelis2Tablet.jpg');
-    /* Other hero styles for smaller screens... 
+    background-image: url('../img/optimoherotablet.jpg');
+    /* Other hero styles for smaller screens... */
   }
-}*/
+  .typed {
+    display: none;
+    }
+  .typed-cursor {
+    display: none;
+    }
+  .hero-content p {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 630px) {
   /* New hero image styles for smaller screens */
