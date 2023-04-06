@@ -717,7 +717,8 @@ section {
   }
 
   .counts .image img {
-    max-width: 70%;
+    max-width: 100%;
+    max-height: min-content;
   }
 }
 
