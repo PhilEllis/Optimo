@@ -383,7 +383,7 @@ body {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/OptimoHero1055.jpg") repeat scroll center center/cover;
+  background: url("../img/optimohero.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
@@ -428,7 +428,7 @@ body {
 }
 
 #hero-cleaning {
-  background: url("../img/optimocleaninghero800.jpg") repeat scroll center center/cover;
+  background: url("../img/optimocleaninghero.jpg") repeat scroll center center/cover;
   height: 60vh;
   width: 100%;
 }
@@ -444,7 +444,7 @@ body {
 }
 
 #hero-maintenance {
-  background: url("../img/optimomaintenancehero800.jpg") repeat scroll center center/cover;
+  background: url("../img/optimomaintenancehero.jpg") repeat scroll center center/cover;
   height: 60vh;
   width: 100%;
 }
