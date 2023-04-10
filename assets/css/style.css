@@ -1366,6 +1366,13 @@ section {
     font-size: 13px;
   }
 
+  #footer .webdesign p {
+    margin: 20px 0 10px 10px;
+  }
+
+  #footer .codepractor img {
+    padding-left: 10px;
+  }
   /*--------------------------------------------------------------
 # About Us Section Cleaning
 --------------------------------------------------------------*/
