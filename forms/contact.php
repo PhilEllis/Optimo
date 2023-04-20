@@ -30,6 +30,7 @@
     'username' => 'optimocontactform@gmail.com',
     'password' => 'Optimo2023!',
     'port' => '587'
+    'encryption' => 'tls'
   );
   
 
