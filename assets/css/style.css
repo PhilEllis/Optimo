@@ -1370,6 +1370,10 @@ section {
     margin: 20px 0 10px 10px;
   }
 
+  #footer .webdesign a {
+    color: #f5f5f5;
+  }
+
   #footer .codepractor img {
     padding-left: 10px;
   }
