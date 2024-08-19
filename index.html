@@ -308,31 +308,36 @@
               </div>
             </div>
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form name="insightly_web_to_lead" action="https://crm.na1.insightly.com/WebToLead/Create" method="post" class="php-email-form"><input type="hidden" name="formId" value="KLelwIggwBtPqKo04ewsgA==" />
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="name">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="name" required="">
+                    <label for="insightly_firstName">First Name: </label>
+                    <input id="insightly_firstName" name="FirstName" type="text" class="form-control" required=""/>
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <label for="name">Your Email</label>
-                    <input type="email" class="form-control" name="email" id="email" required="">
+                    <label for="insightly_lastName">Last Name: </label>
+                    <input id="insightly_lastName" name="LastName" type="text" class="form-control" required=""/>
                   </div>
                 </div>
-                <div class="form-group mt-3">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required="">
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="email">Email: </label>
+                  <input id="insightly_Email" name="email" type="text" class="form-control" required=""/>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="phone">Phone: </label>
+                  <input id="insightly_Phone" name="phone" type="text" class="form-control" required=""/>
                 </div>
                 <div class="form-group mt-3">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                  <label for="Description">Message: </label>
+                  <textarea id="insightly_Description" name="Description" rows="10" type="text" class="form-control" required=""></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <input type="hidden" id="insightly_ResponsibleUser" name="ResponsibleUser" value="2131251"/>
+                <input type="hidden" id="insightly_LeadSource" name="LeadSource" value="3642856"/>
+
+                <p>By clicking "Send Message" you acknowledge that you have read our <a href="optimo-privacy-policy.html" target="_blank">Privacy Policy</a> and understand how and why we might process your Personal Data.</p>
+          
+
+                <div class="text-center"><button type="submit" value="Submit">Send Message</button></div>
               </form>
             </div>
           </div>
